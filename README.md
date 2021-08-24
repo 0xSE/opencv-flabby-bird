@@ -39,4 +39,5 @@ python3 game-Setup.py
 - [Hand Tracking 30 FPS using CPU](https://www.youtube.com/watch?v=UZg49z76cLw&t=3597s)
 - [Finger Counter using Hand Tracking](https://www.youtube.com/watch?v=p5Z_GGRCI5s&t=1490s)
 
-
+## Acknowledgments
+[Hossam Hamdy](https://github.com/0xGhazy)
