@@ -9,6 +9,13 @@ Pygame is a cross-platform set of Python modules designed for writing video game
  Game flabby bird with hand tracking, when point number 7 touch point number 4 making action jump
 ![fbopencv](https://user-images.githubusercontent.com/67038060/130701310-7a7af835-eb0e-4b9e-a5f0-4a170d6981ce.png)
 
+
+# Technologies
+- pygame
+- opencv-python
+- mediapipe
+- keyboard
+
 # Download and Setup
 
 ## Cloning the repo.
