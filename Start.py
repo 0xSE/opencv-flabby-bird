@@ -8,3 +8,4 @@ process2 = subprocess.Popen(["python", "game flappy bird/flappy_update.py"])
 
 process1.wait() # Wait for process1 to finish (basically wait for script to finish)
 process2.wait()
+   

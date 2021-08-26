@@ -1,7 +1,7 @@
 import mediapipe as mp
 from mediapipe.python.solutions import hands
 import cv2
-import keyboard
+import keyboard, time
 
 # Handling our video object, zero value mean camera number 1
 cap = cv2.VideoCapture(0)
@@ -40,13 +40,14 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
     if len(lmList) !=0: 
-        if abs(lmList[7][2] - lmList[ 4 ][2]) <= 40 :
-            count+=1 
-            if count == 1: 
-                print("JUMP")
+        if abs(lmList[7][2] - lmList[4][2]) <= 35 :
+            count+=1  
+            if count == 1:        
                 keyboard.press_and_release('space')
-        else:
+                time.sleep(0.15)
+        else:                                    
             count=0
+    
     
 
     cv2.imshow("close camera by pressing 'q'", img)
