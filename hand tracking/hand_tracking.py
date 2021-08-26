@@ -12,10 +12,8 @@ hands = mpHands.Hands()
 
 mpDraw = mp.solutions.drawing_utils
 
-# pTime = 0
-# cTime = 0
-tipIds = [4,8,12,16,20] 
-count=0
+count =0
+
 while True:
     success, img = cap.read()
     # Coverting into RGB, becouse class {hands} only uses RGB images
